@@ -47,7 +47,7 @@ Except for the public time series datasets, we also used a collected Wind_Power 
 
 
 ## Usage
-You can train the model of six benchmark by the following commands, and the `--root_path` need to be set as your own path, and set `--pred_len` to change the prediction length.
+You can train the model of seven benchmark by the following commands, and the `--root_path` need to be set as your own path, and set `--pred_len` to change the prediction length.
 ```
 # weather
 python -u train.py  --data WTH --root_path $ --pred_len $
@@ -62,7 +62,7 @@ python -u train.py  --data ETTh1 --root_path $ --pred_len $
 # Wind power
 python -u train.py  --data elec --root_path $ --pred_len $
 # AirDelay
-python -u train.py  --data Air --root_path $ --pred_len $
+python -u train.py  --data air --root_path $ --pred_len $
 ```
 
 ## The description of parameters
@@ -117,6 +117,13 @@ The forecasting showcase when compare with other seven baseline methods.
 ![show](figure/show.jpeg)
 
 ## Citation 
+@unknown{unknown,
+author = {Li, Yan and Lu, Xinjiang and Xiong, Haoyi and Tang, Jian and Su, Jiantao and Jin, Bo and Dou, Dejing},
+year = {2023},
+month = {01},
+pages = {},
+title = {Towards Long-Term Time-Series Forecasting: Feature, Pattern, and Distribution}
+}
 
 
 
