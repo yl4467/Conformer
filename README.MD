@@ -41,6 +41,8 @@ The public datasets used in this paper are listed as follows.
 
 ***ETTs:*** https://github.com/zhouhaoyi/ETDataset
 
+***AirDelay:*** https://www.transtats.bts.gov
+
 Except for the public time series datasets, we also used a collected Wind_Power dataset that you can find it under **data/wind.csv** in this repository.
 
 
@@ -59,6 +61,8 @@ python -u train.py  --data ETTm1 --root_path $ --pred_len $
 python -u train.py  --data ETTh1 --root_path $ --pred_len $
 # Wind power
 python -u train.py  --data elec --root_path $ --pred_len $
+# AirDelay
+python -u train.py  --data Air --root_path $ --pred_len $
 ```
 
 ## The description of parameters
@@ -106,9 +110,9 @@ The parameters that used for training the model.
 
 ## Experiment results
 The multivariate forecasting results on six benchmark datasets.
-![multi](figure/multi.jpeg)
+![multi](figure/multi.png)
 The univariate forecasting results on six benchmark datasets.
-![uni](figure/uni.jpeg)
+![uni](figure/uni.png)
 The forecasting showcase when compare with other seven baseline methods.
 ![show](figure/show.jpeg)
 
