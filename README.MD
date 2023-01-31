@@ -21,6 +21,7 @@ performance as torch version.
 * pandas == 0.25.1
 * scikit_learn == 0.21.3
 * paddlepaddle == 2.2.2
+
 Dependencies should be installed using the following command before training:
 `
 pip install -r requirements.txt
