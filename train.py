@@ -93,6 +93,7 @@ data_parser = {
     'TRAF':{'data':'traffic.csv','T':'tensor862','M':[861,861,861],'S':[1,1,1],'MS':[861,861,1],'freq':'h'},
     'EXCH':{'data':'exchange_rate.csv','T':'county8','M':[8,8,8],'S':[1,1,1],'MS':[8,8,1]},
     'elec':{'T':'target','M':[7,7,7],'S':[1,1,1],'MS':[7,7,1], 'freq':'t'},
+    'air':{'T':'target','M':[6,6,6],'S':[1,1,1],'MS':[7,7,1], 'freq':'t'},
 }
 if args.data in data_parser.keys():
     data_info = data_parser[args.data]
