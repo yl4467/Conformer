@@ -1,5 +1,4 @@
-# This is an implementation of “Towards Long-Term Time-Series Forecasting: Feature, Pattern and Distribution ” under the paddle environment. 
-***The PyTorch implementation version can be seen in:*** https://github.com/yl4467/Conformer
+# This is an implementation of “Towards Long-Term Time-Series Forecasting: Feature, Pattern and Distribution ” under the pytorch environment. 
 
  We propose the transformer-based model 'Conformer' for long-term time series forecasting.
  ![model](figure/frame.jpeg)
