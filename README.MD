@@ -117,14 +117,14 @@ The forecasting showcase when compare with other seven baseline methods.
 ![show](figure/show.jpeg)
 
 ## Citation 
-@unknown{unknown,
+```
+@article{conformer,
 author = {Li, Yan and Lu, Xinjiang and Xiong, Haoyi and Tang, Jian and Su, Jiantao and Jin, Bo and Dou, Dejing},
 year = {2023},
 month = {01},
-pages = {},
 title = {Towards Long-Term Time-Series Forecasting: Feature, Pattern, and Distribution}
 }
-
+```
 
 
 
