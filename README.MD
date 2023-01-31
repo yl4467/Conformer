@@ -96,7 +96,7 @@ The parameters that used for experiments.
 |--c_out | the dimension of output |
 |--checkpoints | the path to save the checkpoints |
 |--root_path | the root path of files |
-|--data_path | 
+|--data_path | the dataset path |
 
 ### Training settings 
 The parameters that used for training the model.
