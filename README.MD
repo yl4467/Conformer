@@ -1,6 +1,6 @@
 # This is an implementation of “Towards Long-Term Time-Series Forecasting: Feature, Pattern and Distribution ” under the pytorch environment. 
 
- We propose the transformer-based model 'Conformer' for long-term time series forecasting.
+ We propose the transformer-based model 'Conformer' for long-term time series forecasting, the paper can be seen in https://arxiv.org/pdf/2301.02068.
  ![model](figure/frame.jpeg)
 #
 【NOTE】
